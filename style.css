@@ -65,8 +65,7 @@ header h1 span {
 section {
   padding: 5rem;
 }
-
-section h2 {
+h2 {
   font-weight: bold;
 }
 
@@ -108,4 +107,172 @@ section h2 {
   width: 180px;
   height: auto;
   margin-bottom: 2rem;
+}
+#enc_port_sing{
+  margin-bottom: 50px;
+  width: 100%;
+  height: 350px;
+  background-color: #47e1ae;
+
+}
+/* Estilo para el contenedor de la tarjeta */
+.enc_card_port_sing{
+	padding-top: 10px;
+  margin: 0 auto; /* Centrar la tarjeta horizontalmente */
+	width: 85%; /* Establecer el ancho de la tarjeta */
+	height: 105%; /* Establecer la altura de la tarjeta */
+	position: relative; /* Contexto de posicionamiento para elementos absolutos secundarios */
+	border-top-left-radius: 50px; /* Redondear la esquina superior izquierda */
+  border-top-right-radius: 50px; /* Redondear la esquina superior derecha */
+	background-image: linear-gradient(to bottom, rgb(59, 230, 181), rgba(255, 255, 255, 1)); /* Degradado de fondo de verde a blanco */
+}
+
+/* Estilo para la imagen dentro de la tarjeta */
+#img_enc_port_sing{
+	position: absolute; /* Posicionar la imagen absolutamente dentro de su contenedor */
+  background-size: cover; /* Escalar la imagen de fondo para cubrir todo el elemento */
+  background-position: center; /* Centrar la imagen de fondo */
+	border-radius: 50px; /* Redondear las esquinas de la imagen */
+  height: 80%; /* Establecer la altura de la imagen */
+	width: 100%; /* Establecer el ancho de la imagen */
+}
+#img_enc_port_sing span {
+  position: absolute;
+  bottom: 20px;
+  left: 28px;
+  color: white;
+}
+#etiqueta {
+  background-color: #47aee1;
+  padding: 1px 20px 1px 20px;
+  font-weight: bold;
+  border-radius: 25px;
+  width: fit-content;
+  color: white;
+  margin-right: 5px;
+  font-size: 14px;
+
+}
+
+#Tit_enc_port_sing{
+  margin-left: 3%;
+	position: absolute; 
+	top: 90%; /* Desplazar el título hacia abajo para que aparezca después de la imagen */
+	left: 0; /* Alinear el título a la izquierda */
+	width: 95%; 
+	text-align: left; 
+}
+#Tit_enc_port_sing h1{
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+#section_por_sing{
+  position: relative;
+  margin: 0 auto; 
+  width: 80%;
+}
+#section_por_sing h2{
+  font-size: 1.5em;
+  font-weight: bold;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+
+#gallery_port_sing {
+	display: grid;
+	grid-template-columns: 1fr 1fr; /* Divide el contenedor en dos columnas */
+	grid-gap: 10px;
+	width: 90%; /* Limita el ancho total al 50% */
+	margin: 0 auto; /* Centra el contenido horizontalmente */
+  padding-bottom: 10px;
+}
+
+#gallery_port_sing img {
+	height: auto;
+	border-radius: 20px;
+	width: 100%; /* Ajusta el ancho al 100% del contenedor */
+	object-fit: cover; /* Cubre completamente el contenedor */
+}
+
+#gallery_port_sing img:first-child {
+	grid-row: span 2; /* Ocupa dos filas completas */
+	height: 50vh; /* Ocupa el 50% del alto de la pantalla */
+}
+
+#gallery_port_sing img:nth-child(n+2) {
+	height: calc((50vh - 10px) / 2); /* Calcula el alto para las dos últimas imágenes */
+}
+#post_aft_portfolio{
+  width: 100%;
+  height: 130px;
+  display: flex;
+  margin-bottom: 30px;
+}
+#post_aft_portfolio_img{
+  background-position: center; 
+  background-size: cover;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+/*-----------------------------footer---------------------*/
+.content {
+  height: 5%;
+}
+
+.footer-48201 {
+  padding: 2rem 0 0 0;
+  background-color: #211e1e;
+  color: #ffffffb1;
+}
+
+.footer-48201 .nav-links li {
+  margin-bottom: 10px;
+}
+
+.footer-48201 .nav-links li a {
+  color: #ffffffb1;
+  text-decoration: none;
+}
+
+.footer-48201 .social-icons {
+  display: flex;
+  justify-content: center;
+  padding-top: 1rem;
+}
+
+.footer-48201 .social-icons li {
+  margin: 0 10px;
+  
+}
+
+.footer-48201 .social-icons li a {
+  color: #ffffffb1;
+  font-size: 1rem;
+}
+
+/* Estilos para pantallas Mediana */
+@media (max-width: 992px) {
+  .footer-48201 .container {
+    text-align: center;
+  }
+  .footer-48201 .col-md {
+    margin-bottom: 20px;
+  }
+  
+}
+
+/* Estilos para pantallas pequeñas */
+@media (max-width: 768px) {
+  .footer-48201 .nav-links {
+    text-align: center;
+  }
+  .footer-48201 .nav-links li {
+    display: inline-block;
+    margin: 0 10px;
+  }
 }
