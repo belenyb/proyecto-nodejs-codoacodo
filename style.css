@@ -490,6 +490,10 @@ h2 {
   height: 5%;
 }
 
+footer .container .row {
+  width: 100%;
+}
+
 .footer-48201 {
   padding: 2rem 0 0 0;
   background-color: #211e1e;
