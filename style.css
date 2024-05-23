@@ -47,7 +47,6 @@ header {
   display: flex;
   align-items: center;
   padding: 5rem;
-  gap: 8rem;
 }
 
 header img {
@@ -59,9 +58,11 @@ header img {
   0% {
     transform: translateY(0);
   }
+
   50% {
     transform: translateY(-10px);
   }
+
   100% {
     transform: translateY(0);
   }
@@ -81,6 +82,7 @@ header h1 span {
 section {
   padding: 5rem;
 }
+
 h2 {
   font-weight: bold;
 }
@@ -124,7 +126,8 @@ h2 {
   height: auto;
   margin-bottom: 2rem;
 }
-#enc_port_sing{
+
+#enc_port_sing {
   margin-bottom: 50px;
   width: 100%;
   height: 350px;
@@ -172,19 +175,20 @@ h2 {
   display: block;
   max-width: 1200px;
   margin: auto;
-  justify-items: center;;
+  justify-items: center;
+  ;
 }
 
-#portfolio .container  > * {
+#portfolio .container>* {
   padding: 1rem;
   text-decoration: none;
 }
 
 @media (min-width:768px) {
   #portfolio .container {
-      display: grid;
-      grid-auto-rows: 1fr;
-      grid-template-columns: 1fr 1fr 1fr;
+    display: grid;
+    grid-auto-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
   }
 }
 
@@ -224,32 +228,47 @@ h2 {
 }
 
 /* Estilo para el contenedor de la tarjeta */
-.enc_card_port_sing{
-	padding-top: 10px;
-  margin: 0 auto; /* Centrar la tarjeta horizontalmente */
-	width: 85%; /* Establecer el ancho de la tarjeta */
-	height: 105%; /* Establecer la altura de la tarjeta */
-	position: relative; /* Contexto de posicionamiento para elementos absolutos secundarios */
-	border-top-left-radius: 50px; /* Redondear la esquina superior izquierda */
-  border-top-right-radius: 50px; /* Redondear la esquina superior derecha */
-	background-image: linear-gradient(to bottom, rgb(59, 230, 181), rgba(255, 255, 255, 1)); /* Degradado de fondo de verde a blanco */
+.enc_card_port_sing {
+  padding-top: 10px;
+  margin: 0 auto;
+  /* Centrar la tarjeta horizontalmente */
+  width: 85%;
+  /* Establecer el ancho de la tarjeta */
+  height: 105%;
+  /* Establecer la altura de la tarjeta */
+  position: relative;
+  /* Contexto de posicionamiento para elementos absolutos secundarios */
+  border-top-left-radius: 50px;
+  /* Redondear la esquina superior izquierda */
+  border-top-right-radius: 50px;
+  /* Redondear la esquina superior derecha */
+  background-image: linear-gradient(to bottom, rgb(59, 230, 181), rgba(255, 255, 255, 1));
+  /* Degradado de fondo de verde a blanco */
 }
 
 /* Estilo para la imagen dentro de la tarjeta */
-#img_enc_port_sing{
-	position: absolute; /* Posicionar la imagen absolutamente dentro de su contenedor */
-  background-size: cover; /* Escalar la imagen de fondo para cubrir todo el elemento */
-  background-position: center; /* Centrar la imagen de fondo */
-	border-radius: 50px; /* Redondear las esquinas de la imagen */
-  height: 80%; /* Establecer la altura de la imagen */
-	width: 100%; /* Establecer el ancho de la imagen */
+#img_enc_port_sing {
+  position: absolute;
+  /* Posicionar la imagen absolutamente dentro de su contenedor */
+  background-size: cover;
+  /* Escalar la imagen de fondo para cubrir todo el elemento */
+  background-position: center;
+  /* Centrar la imagen de fondo */
+  border-radius: 50px;
+  /* Redondear las esquinas de la imagen */
+  height: 80%;
+  /* Establecer la altura de la imagen */
+  width: 100%;
+  /* Establecer el ancho de la imagen */
 }
+
 #img_enc_port_sing span {
   position: absolute;
   bottom: 20px;
   left: 28px;
   color: white;
 }
+
 #etiqueta {
   background-color: #47aee1;
   padding: 1px 20px 1px 20px;
@@ -262,25 +281,29 @@ h2 {
 
 }
 
-#Tit_enc_port_sing{
+#Tit_enc_port_sing {
   margin-left: 3%;
-	position: absolute;
-	top: 90%; /* Desplazar el título hacia abajo para que aparezca después de la imagen */
-	left: 0; /* Alinear el título a la izquierda */
-	width: 95%;
-	text-align: left;
+  position: absolute;
+  top: 90%;
+  /* Desplazar el título hacia abajo para que aparezca después de la imagen */
+  left: 0;
+  /* Alinear el título a la izquierda */
+  width: 95%;
+  text-align: left;
 }
-#Tit_enc_port_sing h1{
+
+#Tit_enc_port_sing h1 {
   font-weight: bold;
   font-size: 1.5em;
 }
 
-#section_por_sing{
+#section_por_sing {
   position: relative;
   margin: 0 auto;
   width: 80%;
 }
-#section_por_sing h2{
+
+#section_por_sing h2 {
   font-size: 1.5em;
   font-weight: bold;
   padding-bottom: 10px;
@@ -289,36 +312,46 @@ h2 {
 
 
 #gallery_port_sing {
-	display: grid;
-	grid-template-columns: 1fr 1fr; /* Divide el contenedor en dos columnas */
-	grid-gap: 10px;
-	width: 90%; /* Limita el ancho total al 50% */
-	margin: 0 auto; /* Centra el contenido horizontalmente */
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  /* Divide el contenedor en dos columnas */
+  grid-gap: 10px;
+  width: 90%;
+  /* Limita el ancho total al 50% */
+  margin: 0 auto;
+  /* Centra el contenido horizontalmente */
   padding-bottom: 10px;
 }
 
 #gallery_port_sing img {
-	height: auto;
-	border-radius: 20px;
-	width: 100%; /* Ajusta el ancho al 100% del contenedor */
-	object-fit: cover; /* Cubre completamente el contenedor */
+  height: auto;
+  border-radius: 20px;
+  width: 100%;
+  /* Ajusta el ancho al 100% del contenedor */
+  object-fit: cover;
+  /* Cubre completamente el contenedor */
 }
 
 #gallery_port_sing img:first-child {
-	grid-row: span 2; /* Ocupa dos filas completas */
-	height: 50vh; /* Ocupa el 50% del alto de la pantalla */
+  grid-row: span 2;
+  /* Ocupa dos filas completas */
+  height: 50vh;
+  /* Ocupa el 50% del alto de la pantalla */
 }
 
 #gallery_port_sing img:nth-child(n+2) {
-	height: calc((50vh - 10px) / 2); /* Calcula el alto para las dos últimas imágenes */
+  height: calc((50vh - 10px) / 2);
+  /* Calcula el alto para las dos últimas imágenes */
 }
-#post_aft_portfolio{
+
+#post_aft_portfolio {
   width: 100%;
   height: 130px;
   display: flex;
   margin-bottom: 30px;
 }
-#post_aft_portfolio_img{
+
+#post_aft_portfolio_img {
   background-position: center;
   background-size: cover;
   color: white;
@@ -327,9 +360,138 @@ h2 {
   align-items: center;
   width: 100%;
 }
+
+/*-----------------contact----Alejandro-------------------*/
+/*Da formato al contenedor de la seccion contacto*/
+#contacto {
+  margin-left: auto;
+  width: 95%;
+  height: 950px;
+}
+
+.datos {
+  width: 50%;
+  float: left;
+}
+
+#contacto .datos .redes p {
+  margin: 0px;
+  padding: 0px;
+}
+
+#contacto .datos .redes a {
+  color: black;
+  text-decoration: none;
+  float: left;
+  padding-right: 20px;
+  font-size: 25px;
+}
+
+#contacto .datos .mapa {
+  margin-top: 75px;
+}
+
+#contacto .datos .mapa img {
+  margin-right: 10px;
+  width: 20px;
+  height: 20px;
+}
+
+#contacto .datos .mapa .iframe {
+  width: 10%;
+  height: 10%;
+}
+
+#contacto .datos .telefono {
+  margin-top: 25px;
+}
+
+#contacto .datos .telefono img {
+  margin-right: 10px;
+  width: 20px;
+  height: 20px;
+}
+
+#contacto .datos .email {
+  margin-top: 25px;
+}
+
+#contacto .datos .email img {
+  margin-right: 10px;
+  width: 20px;
+  height: 20px;
+}
+
+#contacto .formulario {
+  float: left;
+  width: 50%;
+  background-image: url("./assets/icon/fondo-formulario.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 1000px;
+}
+
+#contacto .formulario img {
+  width: 100%;
+  height: 100%;
+}
+
+#contacto .formulario .contenedor-formulario {
+  margin-top: 175px;
+  width: 98%;
+  margin-left: 5%;
+}
+
+#contacto .formulario h5 {
+  margin-left: 10%;
+  color: white;
+}
+
+#contacto .formulario ul {
+  width: 80%;
+  margin-left: 5%;
+}
+
+#contacto .formulario li {
+  margin-bottom: 20px;
+  text-decoration: none;
+  color: white;
+  border: none;
+}
+
+#contacto .formulario input {
+  margin: 0 2% 20px 0;
+  width: 48%;
+  float: left;
+  color: black;
+  border: none;
+  background-color: white;
+}
+
+#contacto .formulario button {
+  color: white;
+  border-color: #47e1ae;
+  background-color: #47e1ae;
+  border: none;
+}
+
+#contacto .formulario textarea {
+  margin-top: 5px;
+  width: 98%;
+  height: 15rem;
+  color: black;
+  border: none;
+  background-color: white;
+}
+
+
 /*-----------------------------footer---------------------*/
 .content {
   height: 5%;
+}
+
+footer .container .row {
+  width: 100%;
 }
 
 .footer-48201 {
@@ -363,24 +525,133 @@ h2 {
   font-size: 1rem;
 }
 
-/* Estilos para pantallas Mediana */
-@media (max-width: 992px) {
+@media only screen and (max-width: 1024px){
+  #servicios, #contacto, #sobre-nosotros {
+    padding: 1rem;
+  }
+  #servicios .servicios-container {
+    padding: 1rem;
+  }
+  #sobre-nosotros .sobre-nosotros-container img, #contacto {
+    width:100%;
+  }
+}
+@media only screen and (max-width: 992px) {
+  #navbarNav {
+    padding: 1rem;
+    text-align: center;
+    margin-block: 8px;
+    box-shadow: 1px 3px 9px 0px #dbdbdb;
+  }
+  #navbarNav li {
+    margin: auto !important;
+    text-align: center;
+  }
   .footer-48201 .container {
     text-align: center;
   }
+
   .footer-48201 .col-md {
     margin-bottom: 20px;
   }
-
 }
 
-/* Estilos para pantallas pequeñas */
-@media (max-width: 768px) {
+@media only screen and (max-width: 768px) {
   .footer-48201 .nav-links {
     text-align: center;
   }
+
   .footer-48201 .nav-links li {
     display: inline-block;
     margin: 0 10px;
+  }
+  #contacto {
+    display: flex;
+    flex-direction: column;
+    margin: unset;
+    height: unset;
+  }
+  #contacto .formulario {
+    background-image: unset;
+    width: 100%;
+    background-color: #47e1aea1;
+    height: unset;
+    border-radius: 20px;
+  }
+  #contacto .datos {
+    width: 100%;
+    text-align: center;
+  }
+  #contacto .formulario .contenedor-formulario {
+    margin-top: 20px;
+    width: 100%;
+    margin-left: unset;
+  }
+  #contacto .redes ul {
+    display: flex;
+    margin-top: 16px;
+  }
+  #contacto .redes > div {
+    display: flex;
+    justify-content: center;
+  }
+  #contacto iframe {
+    width: 100%;
+    height: 300px;
+  }
+  #contacto .datos .mapa{
+    margin-top: 16px;
+  }
+  header {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+  header .container {
+    padding: 1rem;
+  }
+  header h1 {
+    font-size: 40px;
+  }
+  header img, #sobre-nosotros .sobre-nosotros-container img {
+    width: 100%;
+    max-width: 400px;
+  }
+  #servicios, #portfolio {
+    padding: 1rem;
+  }
+  #servicios .servicios-container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+  #servicios .servicios-container .card {
+    width: 100%;
+  }
+  #sobre-nosotros .sobre-nosotros-container {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+  }
+  #sobre-nosotros .sobre-nosotros-container h3 {
+    margin-top: 20px;
+  }
+  #portfolio .container .card {
+    margin: auto;
+  }
+}
+
+@media only screen and (max-width: 425px){
+  #servicios .servicios-container {
+    display: flex;
+    flex-direction: column;
+  }
+  #contacto .formulario ul {
+    margin: unset;
+    padding: 0.5rem;
+    width: 100%;
+  }
+  #contacto .formulario input {
+    float: none;
+    width: 100%;
   }
 }
