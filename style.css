@@ -80,7 +80,7 @@ header h1 span {
 }
 
 section {
-  padding: 5rem;
+  padding: 2rem;
 }
 
 h2 {
@@ -90,7 +90,7 @@ h2 {
 /* Servicios */
 
 #servicios {
-  background: url(./assets/servicios/servicios-background.png) no-repeat right top;
+  background: url(./assets/servicios/servicios-background.webp) no-repeat right top;
   background-size: cover;
   text-align: center;
 }
@@ -167,7 +167,7 @@ h2 {
 /* Portfolio */
 #portfolio {
   text-align: center;
-  background: url(./assets/portfolio/portfolio-background.png) no-repeat right top;
+  background: url(./assets/portfolio/portfolio-background.webp) no-repeat right top;
   background-size: cover;
 }
 
@@ -269,7 +269,7 @@ h2 {
   color: white;
 }
 
-#etiqueta {
+.etiqueta {
   background-color: #47aee1;
   padding: 1px 20px 1px 20px;
   font-weight: bold;
@@ -425,10 +425,10 @@ h2 {
 #contacto .formulario {
   float: left;
   width: 50%;
-  background-image: url("./assets/icon/fondo-formulario.png");
+  background-image: url("./assets/fondo-formulario.webp");
   background-repeat: no-repeat;
   background-size: 100%;
-  height: 1000px;
+  height: 80%;
 }
 
 #contacto .formulario img {
@@ -437,7 +437,7 @@ h2 {
 }
 
 #contacto .formulario .contenedor-formulario {
-  margin-top: 175px;
+  margin-top: 135px;
   width: 98%;
   margin-left: 5%;
 }
@@ -480,7 +480,7 @@ h2 {
   width: 98%;
   height: 15rem;
   color: black;
-  border: none;
+  border-color: #47aee1;
   background-color: white;
 }
 
@@ -578,6 +578,15 @@ footer .container .row {
     height: unset;
     border-radius: 20px;
   }
+  #contacto .formulario button {
+    color: white;
+    border-color: #47aee1;
+    background-color: #47aee1;
+    border: none;
+  }
+  #contacto .formulario textarea {
+    border-color: #47e1aea1;
+  }
   #contacto .datos {
     width: 100%;
     text-align: center;
@@ -614,7 +623,7 @@ footer .container .row {
     font-size: 40px;
   }
   header img, #sobre-nosotros .sobre-nosotros-container img {
-    width: 100%;
+    width: 90%;
     max-width: 400px;
   }
   #servicios, #portfolio {
